@@ -17,6 +17,7 @@
 
 .title{
     margin-left: 15px;
+    // color: white;
 }
 
 .title h1{
@@ -48,5 +49,11 @@
 
 }
 .nav a {
-    padding: 5px;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+
+    &:hover{
+        font-weight: 500;
+    }
 }

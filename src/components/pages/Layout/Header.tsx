@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from '../../../assets/images/yuo.png'
+import logo from '../../../assets/images/yuo.webp'
 import styles from "./Header.module.scss";
 
 const Header = () => {
@@ -10,9 +10,8 @@ const Header = () => {
           <a href="/">
           <img
             src={logo}
-            height="96"
-            width="90"
-          // className="d-inline-block align-top"
+            width="70"
+          className="d-inline-block align-top"
             alt="Logo"
           />
           </a>
@@ -23,12 +22,13 @@ const Header = () => {
           </div>
         </div>
         <div className={styles.nav}>
-          <a href="/">Menu</a>
-          <a href="/">Menu</a>
-          <a href="/">Menu</a>
-          <a href="/">Menu</a>
-          <a href="/">Menu</a>
-          <a href="/">Menu</a>
+          <a href="/">Главная</a>
+          <a href="/">Тех. поддерждка</a>
+          <a href="/">Почта</a>
+          <a href="/">Передача файлов</a>
+          <a href="/">Телефонный справочник</a>
+          <a href="/">Справочные материалы</a>
+          <a href="/">Слайды</a>
         </div>
         </div>
     </header>
