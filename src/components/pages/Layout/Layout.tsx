@@ -5,7 +5,7 @@ import Header from './Header'
   return (
     <>
     <Header />
-    <div className='container'>{children}</div>
+    <>{children}</>
     {/* <Footer /> */}
     </>
   )

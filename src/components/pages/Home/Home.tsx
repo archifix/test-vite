@@ -6,7 +6,14 @@ import styles from './Home/Home.module.scss'
 export const Home: FC = () => {
   return (
     <Layout>
-      <div className={styles.bg}>Hello</div>
+      <main className={styles.main}>
+          <div className="container">
+            <div className='@[1760px]:underline'>
+
+            <h1>Hellou</h1>
+            </div>
+          </div>
+      </main>
     </Layout>
     
     
