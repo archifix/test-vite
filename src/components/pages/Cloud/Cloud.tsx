@@ -4,7 +4,7 @@ import Layout from '../Layout/Layout';
 export const Cloud = () => {
   return (
     <Layout>
-      <div className="container">Cloud</div>
+      <div className="container">Cloud1</div>
     </Layout>
   );
 };
